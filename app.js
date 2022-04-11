@@ -97,3 +97,4 @@ app.get("/director:/directorID/movie/", (request, response) => {
   const directorMovieArray = db.all(getDirectorMovieQuery);
   response.send(directorMovieArray);
 });
+module.exports = add;
